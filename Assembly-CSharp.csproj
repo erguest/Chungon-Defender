@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,26 +53,23 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\TemporalReprojection.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_MeshExtrusion.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\EffectBase.cs" />
     <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_FPSDisplay.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_SubShowcase.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Bloom.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_SetInteractiveShaderEffects.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_AssetManager.cs" />
     <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\FrustumJitter.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_Terrain.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_RotatorDisplay.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\Extensions.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_BallPlayer.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Bloom.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_FxOnMouseClick.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\TemporalReprojection.cs" />
     <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\VelocityBuffer.cs" />
     <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\VelocityBufferTag.cs" />
-    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_FxOnMouseClick.cs" />
     <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_RainActivator.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_MeshExtrusion.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_SubShowcase.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_Terrain.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\EffectBase.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_AssetManager.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_SetInteractiveShaderEffects.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_BallPlayer.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_RotatorDisplay.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\Extensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fantasy Adventure Environment\Shaders\VS_InstancedIndirect.cginc" />
@@ -693,14 +690,20 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TerrainTools.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -710,6 +713,12 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -729,17 +738,9 @@
       <Project>{E6588929-1B41-793C-E932-98C780FAAC30}</Project>
       <Name>sc.fae.editor</Name>
     </ProjectReference>
-    <ProjectReference Include="sc.fae.runtime.csproj">
-      <Project>{129DA039-6D9E-EC3C-91E4-E4ECA53B1D43}</Project>
-      <Name>sc.fae.runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Dreamteck.Splines.Editor.csproj">
       <Project>{963A4AA4-8620-24CF-1B0D-38E0F1349658}</Project>
       <Name>Dreamteck.Splines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Dreamteck.Splines.csproj">
-      <Project>{CDF632D2-93AF-A62D-44AD-0ADFF1B099F2}</Project>
-      <Name>Dreamteck.Splines</Name>
     </ProjectReference>
     <ProjectReference Include="NewAssembly.csproj">
       <Project>{B2E6402F-A7D4-4C57-3806-58A809291159}</Project>
@@ -748,6 +749,14 @@
     <ProjectReference Include="Dreamteck.Utilities.csproj">
       <Project>{FA79AF7F-3A9C-9196-EC3C-A83D2CF65847}</Project>
       <Name>Dreamteck.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Dreamteck.Splines.csproj">
+      <Project>{CDF632D2-93AF-A62D-44AD-0ADFF1B099F2}</Project>
+      <Name>Dreamteck.Splines</Name>
+    </ProjectReference>
+    <ProjectReference Include="sc.fae.runtime.csproj">
+      <Project>{129DA039-6D9E-EC3C-91E4-E4ECA53B1D43}</Project>
+      <Name>sc.fae.runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
