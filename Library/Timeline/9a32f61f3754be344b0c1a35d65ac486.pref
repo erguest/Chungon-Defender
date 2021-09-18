@@ -22,7 +22,7 @@ MonoBehaviour:
   sequencerHeaderWidth: 315
   m_Keys:
   - {fileID: -5094454950807526427, guid: 9a32f61f3754be344b0c1a35d65ac486, type: 2}
-  - {fileID: 774198408760206823, guid: 9a32f61f3754be344b0c1a35d65ac486, type: 2}
+  - {fileID: -444735989058818991, guid: 9a32f61f3754be344b0c1a35d65ac486, type: 2}
   m_Vals:
   - collapsed: 0
     showMarkers: 1
