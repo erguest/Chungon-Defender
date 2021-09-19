@@ -7,6 +7,8 @@ public class PlayerHandler : MonoBehaviour
     [SerializeField] float yRange = 8f;
     [SerializeField] float clampOffset = 8f;
 
+    [SerializeField] GameObject laser;
+
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -15f;
 
@@ -19,6 +21,7 @@ public class PlayerHandler : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
     void ProcessRotation()
     {
@@ -34,7 +37,7 @@ public class PlayerHandler : MonoBehaviour
         // roll
         float rollInput = xThrow * controlRollFactor;
         float roll = rollInput;
-   
+
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
     void ProcessTranslation()
@@ -42,7 +45,7 @@ public class PlayerHandler : MonoBehaviour
         // Input 
         xThrow = Input.GetAxis("Horizontal");
         yThrow = Input.GetAxis("Vertical");
-     
+
         // X Translate Calc
         float xOffset = xThrow * Time.deltaTime * movementSpeed;
         float newXpos = transform.localPosition.x + xOffset;
@@ -62,4 +65,18 @@ public class PlayerHandler : MonoBehaviour
         transform.localPosition = new Vector3(clampXPos, clampYPos, transform.localPosition.z);
     }
 
+    void ProcessFiring()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {ActivateLaser(true);}
+        else if (Input.GetKeyUp(KeyCode.Mouse0))
+        {ActivateLaser(false);}
+    }
+    void ActivateLaser(bool isActive)
+    {
+        var laserEmission = laser.GetComponent<ParticleSystem>().emission;
+        laserEmission.enabled = isActive;
+    }
+
+    
 }
