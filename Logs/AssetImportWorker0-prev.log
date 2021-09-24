@@ -1,0 +1,1451 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16344 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/UnityRepo/Chungon Defender
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50656
+Successfully changed project path to: F:/UnityRepo/Chungon Defender
+F:/UnityRepo/Chungon Defender
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UnityRepo/Chungon Defender/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002247 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1261ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.6 MB.
+System memory in use after: 220.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2925.
+Total: 3.933000 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.178800 ms MarkObjects: 3.023400 ms  DeleteObjects: 0.378800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSnow/TerrainSnow_MaskMap.png
+  artifactKey: Guid(c4335f9e6a8862041a2004a090ed2373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSnow/TerrainSnow_MaskMap.png using Guid(c4335f9e6a8862041a2004a090ed2373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67582fb04d810c492d9218f3c1b3732') in 0.055569 seconds 
+  Import took 0.059427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/Tree_Bark_Normals.png
+  artifactKey: Guid(461375bbf118d9640a211d513456a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/Tree_Bark_Normals.png using Guid(461375bbf118d9640a211d513456a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f0803105db4793247b52aee5abe072') in 0.030093 seconds 
+  Import took 0.034212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/tutorials.png
+  artifactKey: Guid(1c2813fa4a97ab442b80f29592282375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/tutorials.png using Guid(1c2813fa4a97ab442b80f29592282375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8997ae07d5982282015ba3c785bd8ef') in 0.009612 seconds 
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
+  artifactKey: Guid(35c503943e9b94a49a5cf140d6154a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png using Guid(35c503943e9b94a49a5cf140d6154a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2048fb59676608027f4feb3b569abe') in 0.054085 seconds 
+  Import took 0.057553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/Tree_Bark_Diffuse.png
+  artifactKey: Guid(015e4feafc467fc40a4f0d5550d3578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/Tree_Bark_Diffuse.png using Guid(015e4feafc467fc40a4f0d5550d3578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207c598e2a9de13986eb38451c701fde') in 0.012941 seconds 
+  Import took 0.016471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/TubeGenerator.png
+  artifactKey: Guid(b4e3f1d75c0b07f4890e7acab6fd1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/TubeGenerator.png using Guid(b4e3f1d75c0b07f4890e7acab6fd1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4655393c4998889b562db3e70d97a81') in 0.009182 seconds 
+  Import took 0.012943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/youtube.png
+  artifactKey: Guid(8a25750cc3c734140b2fd9dac637a8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/youtube.png using Guid(8a25750cc3c734140b2fd9dac637a8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52c2a1934788086374d00ef88eb6730') in 0.010735 seconds 
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Extra/Sprites/UIButton02.png
+  artifactKey: Guid(72139511e9e80044086697346f7d2a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Extra/Sprites/UIButton02.png using Guid(72139511e9e80044086697346f7d2a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb90296dc66b2887bfafcdf9a7ec60a') in 0.036211 seconds 
+  Import took 0.039535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Extra/Sprites/UIButton01.png
+  artifactKey: Guid(8db3e1952dc12374e9675a304e956e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Extra/Sprites/UIButton01.png using Guid(8db3e1952dc12374e9675a304e956e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0720f8503d14da193913148088e034c9') in 0.012635 seconds 
+  Import took 0.016126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Extra/Sprites/UIButton03.png
+  artifactKey: Guid(9826322139d473b43b78aa7ec6104761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Extra/Sprites/UIButton03.png using Guid(9826322139d473b43b78aa7ec6104761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c92e719001d2a80dc980227015a9d90') in 0.010700 seconds 
+  Import took 0.014458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png
+  artifactKey: Guid(b617caa5ef54773409f566190c82a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png using Guid(b617caa5ef54773409f566190c82a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176d838771ae069c7b0c43f3ffab3911') in 0.069935 seconds 
+  Import took 0.073609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/WaveformGenerator.png
+  artifactKey: Guid(608905f522fa0644398876606b832e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/WaveformGenerator.png using Guid(608905f522fa0644398876606b832e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5466e70287e588e3e0a13a73269edcc2') in 0.010391 seconds 
+  Import took 0.013543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png
+  artifactKey: Guid(cbdbc14d991fe424c8ad8afda55c8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png using Guid(cbdbc14d991fe424c8ad8afda55c8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316acbde29e2521c0648abbb54989b37') in 0.065426 seconds 
+  Import took 0.069715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSnow/TerrainSnow_normal.png
+  artifactKey: Guid(f520cd20275b2ea409783c8ced5a73bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSnow/TerrainSnow_normal.png using Guid(f520cd20275b2ea409783c8ced5a73bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b728fbc67ed073c0bc7fe80951f563') in 0.013442 seconds 
+  Import took 0.016811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/Tree_Bush.png
+  artifactKey: Guid(75f8ecf62ae77bf48a5fa08ef39335e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/Tree_Bush.png using Guid(75f8ecf62ae77bf48a5fa08ef39335e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ed3b014bda3c41c11ef93281c17d5e') in 0.009422 seconds 
+  Import took 0.012892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221017 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainRock/TerrainRock_normal.png
+  artifactKey: Guid(13d764aa26cf45241967c339b19ab906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainRock/TerrainRock_normal.png using Guid(13d764aa26cf45241967c339b19ab906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c080c56ee3760b0a48d3caeffe68bd') in 0.010594 seconds 
+  Import took 0.014420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSand/TerrainSand_normal.png
+  artifactKey: Guid(3e914031f76a35041b416993ce702d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSand/TerrainSand_normal.png using Guid(3e914031f76a35041b416993ce702d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167de96432c9ed6ac4600c2c5b2250bb') in 0.013474 seconds 
+  Import took 0.016990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainRock/TerrainRock_MaskMap.png
+  artifactKey: Guid(dc3d24781b1fa1045866a95d899eb150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainRock/TerrainRock_MaskMap.png using Guid(dc3d24781b1fa1045866a95d899eb150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f31f820fb4457268ddc56c398a696e') in 0.011029 seconds 
+  Import took 0.014642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSand/TerrainSand_MaskMap.png
+  artifactKey: Guid(cb11eb5b569fda6458e7e02acf729bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainSand/TerrainSand_MaskMap.png using Guid(cb11eb5b569fda6458e7e02acf729bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5de5e9deb8243a885ebdf03d159ebc') in 0.012174 seconds 
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008592 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_basecolor.png
+  artifactKey: Guid(78b8432705ca9134f8d1a77f0c4db31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_basecolor.png using Guid(78b8432705ca9134f8d1a77f0c4db31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ec27b1a1a89798f5f28d6d3e30bd5f') in 0.011064 seconds 
+  Import took 0.014909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor_Birch/TerrainForestFloor_Birch_normal.png
+  artifactKey: Guid(ee10a7b533748744eb3567630b6bc111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor_Birch/TerrainForestFloor_Birch_normal.png using Guid(ee10a7b533748744eb3567630b6bc111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab563c68c836e80e17fdbe1a95a5db7') in 0.010908 seconds 
+  Import took 0.014263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_MaskMap.png
+  artifactKey: Guid(2186908e434ae8345ab202558a94e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_MaskMap.png using Guid(2186908e434ae8345ab202558a94e30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83530b6470a4a8c6177783f41b33b6f') in 0.011057 seconds 
+  Import took 0.014983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SurfaceGenerator.png
+  artifactKey: Guid(cf90d545cbe8b2a4197b471709a5e579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SurfaceGenerator.png using Guid(cf90d545cbe8b2a4197b471709a5e579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215626761e1375311729d3c72d8e4ef') in 0.010297 seconds 
+  Import took 0.013663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_basecolor.png
+  artifactKey: Guid(2021285e492a4774bb1a0e59b3756ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_basecolor.png using Guid(2021285e492a4774bb1a0e59b3756ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fcdee39cf1396c6094ddfba26b1ee3') in 0.010878 seconds 
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor_Birch/TerrainForestFloor_Birch_basecolor.png
+  artifactKey: Guid(a4b5297c80517ef46b297d5667139e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor_Birch/TerrainForestFloor_Birch_basecolor.png using Guid(a4b5297c80517ef46b297d5667139e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6410877f4a4a6a845724020bfb100cdc') in 0.009952 seconds 
+  Import took 0.013664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_normal.png
+  artifactKey: Guid(d44c1ab04a4056f4d9ab54a6f172cf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_normal.png using Guid(d44c1ab04a4056f4d9ab54a6f172cf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b7c1b4f4af42d43e2160d1ecafd056') in 0.009922 seconds 
+  Import took 0.013383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_normal.png
+  artifactKey: Guid(a04fec741d779664db787889b5c9995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainForestFloor/TerrainForestFloor_normal.png using Guid(a04fec741d779664db787889b5c9995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97334ed8b35d5ae3f514ef92b6275056') in 0.015318 seconds 
+  Import took 0.018691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_MaskMap.png
+  artifactKey: Guid(5894c3afadd59a04ab1103afabe5e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Terrain/Textures/TerrainDirt/TerrainDirt_MaskMap.png using Guid(5894c3afadd59a04ab1103afabe5e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7695a5e9adf14c78eb89b7764a52b000') in 0.009964 seconds 
+  Import took 0.013722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/support.png
+  artifactKey: Guid(645a8bd65986fe24d863511d1d8ddc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/support.png using Guid(645a8bd65986fe24d863511d1d8ddc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207104310f43bf7f8af13291827f2556') in 0.009059 seconds 
+  Import took 0.012394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084777 seconds.
+  path: Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Mask2.png
+  artifactKey: Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Mask2.png using Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf37271609a40eccce2d68a2d23bf5f') in 0.048086 seconds 
+  Import took 0.051485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
+  artifactKey: Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5360a4475636c044e8bd7f84162fcb48') in 0.056619 seconds 
+  Import took 0.060107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
+  artifactKey: Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Neutral.png using Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65078a6f4ebff3dc9c2ec04ea072659') in 0.057344 seconds 
+  Import took 0.060766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Branch.png
+  artifactKey: Guid(ae87afc18db01154a9c5a13a54f483d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Branch.png using Guid(ae87afc18db01154a9c5a13a54f483d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b81958a2dce9bc13f80cb9e99037a3b') in 0.009225 seconds 
+  Import took 0.012681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Black.png
+  artifactKey: Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023eb970f3dc7c63e44f8790a7cba2ed') in 0.051749 seconds 
+  Import took 0.055169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Blue.png
+  artifactKey: Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Blue.png using Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0b69124421d97c4361c15a08b049f9') in 0.014116 seconds 
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Cyan.png
+  artifactKey: Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Cyan.png using Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231654c23d67d222d686fa1a6dddaf62') in 0.047704 seconds 
+  Import took 0.051072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Normal.png
+  artifactKey: Guid(c96423a02cfe8934286c58b144ca7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Normal.png using Guid(c96423a02cfe8934286c58b144ca7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8efe692d828c4437b2094a048ed9ec') in 0.013012 seconds 
+  Import took 0.016630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Yellow.png
+  artifactKey: Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Yellow.png using Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873b3fb764ff0a8c7c5f8a9bbfc9487c') in 0.057723 seconds 
+  Import took 0.060831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineUser.png
+  artifactKey: Guid(9bbaac8eb7021d44b9864113856c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineUser.png using Guid(9bbaac8eb7021d44b9864113856c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26778acd294e511688d7c5319d70299') in 0.021719 seconds 
+  Import took 0.025181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Grey.png
+  artifactKey: Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Grey.png using Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63419dbba64150294f921b1d6147ed2') in 0.065611 seconds 
+  Import took 0.069335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/split_on_dark.png
+  artifactKey: Guid(82ac2e1734f44b240ba37c540df9c80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/split_on_dark.png using Guid(82ac2e1734f44b240ba37c540df9c80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1426f04adf9eee0dda6b2be671e0f62a') in 0.009882 seconds 
+  Import took 0.013588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Purple.png
+  artifactKey: Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Purple.png using Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77a117885a1807b65a257fd33df7fa1') in 0.055980 seconds 
+  Import took 0.059207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Orange.png
+  artifactKey: Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Orange.png using Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3831a5a7377c6a2fe9fa5614db9b8f') in 0.085874 seconds 
+  Import took 0.088922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/split_dark.png
+  artifactKey: Guid(dfef37ecae1f2f84ebc676a9ffe7a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/split_dark.png using Guid(dfef37ecae1f2f84ebc676a9ffe7a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f426c84da406cf1ceef4f21470e545') in 0.008501 seconds 
+  Import took 0.011634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_normals.png
+  artifactKey: Guid(fb49619912679bd46a197b457e11d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_normals.png using Guid(fb49619912679bd46a197b457e11d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1d159c2e753925e99941eb010c9e25') in 0.009983 seconds 
+  Import took 0.013244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/split.png
+  artifactKey: Guid(e95006705b12c444e94fc811b39a8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/split.png using Guid(e95006705b12c444e94fc811b39a8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3548c0addc3dbe20b0a8f48ef8c9fcce') in 0.007990 seconds 
+  Import took 0.010992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_White.png
+  artifactKey: Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_White.png using Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f30238578ed89f0a2e7b229f1d0498') in 0.062257 seconds 
+  Import took 0.065344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_diffuse.png
+  artifactKey: Guid(7aa22997304c43d428912a3bf3230785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/Spruce_Bark_diffuse.png using Guid(7aa22997304c43d428912a3bf3230785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4afebe7a03e0cfb03e3df0eddfbbb4b') in 0.011319 seconds 
+  Import took 0.014570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/split_dark.png
+  artifactKey: Guid(dfef37ecae1f2f84ebc676a9ffe7a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/split_dark.png using Guid(dfef37ecae1f2f84ebc676a9ffe7a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f426c84da406cf1ceef4f21470e545') in 0.004973 seconds 
+  Import took 0.007986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Emission.png
+  artifactKey: Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Emission.png using Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc3bd1bfd6dd12136f2f2e0a34fd3a9') in 0.009233 seconds 
+  Import took 0.012136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Mask3.png
+  artifactKey: Guid(bb3b71277204e0048925dd90850a68a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/Masks/StarSparrow_Mask3.png using Guid(bb3b71277204e0048925dd90850a68a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eb5232c3f17663b61e915814cff74a') in 0.050597 seconds 
+  Import took 0.053556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
+  artifactKey: Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c7829b098b4ec685152185d3b76fe8') in 0.011222 seconds 
+  Import took 0.014266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Red.png
+  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8043134ec739c66721a03b0cef496685') in 0.052501 seconds 
+  Import took 0.055412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Packages/StarSparrow/Textures/StarSparrow_Green.png
+  artifactKey: Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/StarSparrow_Green.png using Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f31536bf95bf35817a8deb28b85925') in 0.051475 seconds 
+  Import took 0.054409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/split_on.png
+  artifactKey: Guid(88bb8263fd19d2447a9640ce93de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/split_on.png using Guid(88bb8263fd19d2447a9640ce93de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da55ab192777ff000623da51b4556ab') in 0.008185 seconds 
+  Import took 0.011142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.888080 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/split_on.png
+  artifactKey: Guid(88bb8263fd19d2447a9640ce93de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/split_on.png using Guid(88bb8263fd19d2447a9640ce93de3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da55ab192777ff000623da51b4556ab') in 0.005682 seconds 
+  Import took 0.010247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.071203 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineMesh.png
+  artifactKey: Guid(832e3a79eca687941a031a046045c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineMesh.png using Guid(832e3a79eca687941a031a046045c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068dd5a3615bd3a1d0dce6f1850a214e') in 0.010325 seconds 
+  Import took 0.014579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineRenderer.png
+  artifactKey: Guid(02f78a9ec76d40f49bfac78c64a754d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineRenderer.png using Guid(02f78a9ec76d40f49bfac78c64a754d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940f853aad9af3e2c41de4a4a4be2346') in 0.010096 seconds 
+  Import took 0.013471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplinePositioner.png
+  artifactKey: Guid(7445cc27708caa049a4b4ef14d9a5eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplinePositioner.png using Guid(7445cc27708caa049a4b4ef14d9a5eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df360adeaefdf425c4e7fabf1464a2') in 0.011792 seconds 
+  Import took 0.015038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineProjector.png
+  artifactKey: Guid(9dbfb387ba852e34299827107f06d528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineProjector.png using Guid(9dbfb387ba852e34299827107f06d528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3ace38e96f592abe65c8ddb4584f8') in 0.010653 seconds 
+  Import took 0.014543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineMesh.png
+  artifactKey: Guid(832e3a79eca687941a031a046045c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineMesh.png using Guid(832e3a79eca687941a031a046045c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068dd5a3615bd3a1d0dce6f1850a214e') in 0.009331 seconds 
+  Import took 0.013016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineMorph.png
+  artifactKey: Guid(5a7f65ad6116cff448644595264d0ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineMorph.png using Guid(5a7f65ad6116cff448644595264d0ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa8b1ed729ec62f6d565e2f6b7c1f45') in 0.010372 seconds 
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097143 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoTerrain.asset
+  artifactKey: Guid(4f74269ba463c16428f45c9c1deca27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoTerrain.asset using Guid(4f74269ba463c16428f45c9c1deca27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35e47bf61bb5ff34b64d8e1b76b8ebf') in 0.253508 seconds 
+  Import took 0.259177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/remove_on_dark.png
+  artifactKey: Guid(f7ec1d1aa89e3594bb4563b68b1055bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/remove_on_dark.png using Guid(f7ec1d1aa89e3594bb4563b68b1055bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee0e05fc66c7fcc1bb94dcd4d3a663a') in 0.008580 seconds 
+  Import took 0.012554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineFollower.png
+  artifactKey: Guid(14d9ee407d8622249bb457e71b4400d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineFollower.png using Guid(14d9ee407d8622249bb457e71b4400d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92549c121a0306c6c976bdb5a03a034d') in 0.009866 seconds 
+  Import took 0.013314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/rate.png
+  artifactKey: Guid(2d408c4aeee3cf742a05436998ade025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/rate.png using Guid(2d408c4aeee3cf742a05436998ade025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a694510a201c5a8a7fc30115fb8fe96c') in 0.008740 seconds 
+  Import took 0.012124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives_dark.png
+  artifactKey: Guid(852046afe3afc3c4da5193739b14c8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives_dark.png using Guid(852046afe3afc3c4da5193739b14c8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899686d2244ebdfa76768b6b106c6238') in 0.008167 seconds 
+  Import took 0.011814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/remove_dark.png
+  artifactKey: Guid(6c52483422841154a88cf13e132c0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/remove_dark.png using Guid(6c52483422841154a88cf13e132c0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a124f61e1ef57bd86f78054d9bfbb16c') in 0.008445 seconds 
+  Import took 0.012351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Packages/StarSparrow/Readme/Readme Files/Icons/ReadMeStarSparrow_Icon.png
+  artifactKey: Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Readme/Readme Files/Icons/ReadMeStarSparrow_Icon.png using Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe4e75f6de384602b8a7aca9f860684') in 0.010797 seconds 
+  Import took 0.014251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png
+  artifactKey: Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png using Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a673b5be4d6dd1a111c86ec352e07029') in 0.085209 seconds 
+  Import took 0.088734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror_on.png
+  artifactKey: Guid(d62abb75b50f1c641b791978603be177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror_on.png using Guid(d62abb75b50f1c641b791978603be177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd630b9b67cb672f44c7584029629da') in 0.010777 seconds 
+  Import took 0.014294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/Pine_Branch.png
+  artifactKey: Guid(c4e35c139d28a2340a80c2793df5f994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/Pine_Branch.png using Guid(c4e35c139d28a2340a80c2793df5f994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c41d420591491fc052b9fa6955757a2') in 0.009871 seconds 
+  Import took 0.012882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png
+  artifactKey: Guid(7895bb88d21b82e4c86e0e53289c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png using Guid(7895bb88d21b82e4c86e0e53289c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e53c465ba79a60026f354469a89a316') in 0.024005 seconds 
+  Import took 0.027674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/normal_dark.png
+  artifactKey: Guid(63ac7cde5dce9724da6bafdbb03c08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/normal_dark.png using Guid(63ac7cde5dce9724da6bafdbb03c08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08cfd22aec0b016ab350f51407cc7d8') in 0.008497 seconds 
+  Import took 0.012009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png
+  artifactKey: Guid(50cd73a325d3a0145a19c956de7950a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png using Guid(50cd73a325d3a0145a19c956de7950a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f5027e0b2379e7aa29d09917112c59') in 0.048401 seconds 
+  Import took 0.052152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/Noise.png
+  artifactKey: Guid(0a3ba5a084ceba648bafc93bf49f9cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/Noise.png using Guid(0a3ba5a084ceba648bafc93bf49f9cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9301e05108074eef0d9c05acd4f90a21') in 0.009737 seconds 
+  Import took 0.013469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/GrassMuddyPattern.png
+  artifactKey: Guid(85ea986c7f0510e498b3ddeeaba62ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/GrassMuddyPattern.png using Guid(85ea986c7f0510e498b3ddeeaba62ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7828372320396c280e301fc446b65845') in 0.011577 seconds 
+  Import took 0.014898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror.png
+  artifactKey: Guid(8197b9198a564c84c8d4cce2a508c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror.png using Guid(8197b9198a564c84c8d4cce2a508c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55aa57d4b078fac6cea74cedd5f17c44') in 0.007241 seconds 
+  Import took 0.010499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/merge.png
+  artifactKey: Guid(398d7dd5aa8459b419055e5c0b70d6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/merge.png using Guid(398d7dd5aa8459b419055e5c0b70d6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6a6243a125678b088651806526d6e5') in 0.009017 seconds 
+  Import took 0.012549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png
+  artifactKey: Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png using Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca067516f5fc843d19a096fd682a72a9') in 0.071210 seconds 
+  Import took 0.074555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/merge_on.png
+  artifactKey: Guid(d82300e7e8792094fb8826337e6b6e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/merge_on.png using Guid(d82300e7e8792094fb8826337e6b6e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e796a74e1dacca8c423afc4bec0d3a') in 0.007899 seconds 
+  Import took 0.011210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png
+  artifactKey: Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png using Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef942c30ba251567ecefcbf82dc33ae8') in 0.030834 seconds 
+  Import took 0.034055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/plugin_header.png
+  artifactKey: Guid(2fed21bdf8555094b92db4aab04d1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/plugin_header.png using Guid(2fed21bdf8555094b92db4aab04d1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782f5a7290b665d80b7a09f23c90b95a') in 0.009044 seconds 
+  Import took 0.012693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png
+  artifactKey: Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png using Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a8bc12c814effd894f6b45114d52e2') in 0.037752 seconds 
+  Import took 0.041748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/normal.png
+  artifactKey: Guid(99d6f760b0b77774c8e2729dca0a4ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/normal.png using Guid(99d6f760b0b77774c8e2729dca0a4ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c7620950e52a50396053925f94ef6b') in 0.009618 seconds 
+  Import took 0.013327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise03.png
+  artifactKey: Guid(35832e4bcb865be44867dbdb64c65aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise03.png using Guid(35832e4bcb865be44867dbdb64c65aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a663624a43a190967c7b57dbe0c1cc') in 0.009263 seconds 
+  Import took 0.012735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/normal_on.png
+  artifactKey: Guid(55e9a5818ff4c0f4fabcbfa0e7cb4bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/normal_on.png using Guid(55e9a5818ff4c0f4fabcbfa0e7cb4bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43e78d0c6a1fc185288a568c792f969') in 0.008765 seconds 
+  Import took 0.012368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives_on_dark.png
+  artifactKey: Guid(34931132cbe14dc40b617dc7a2dda186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives_on_dark.png using Guid(34931132cbe14dc40b617dc7a2dda186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99943a9e55dbdfacc805b2895213d6bf') in 0.009202 seconds 
+  Import took 0.012790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/LengthCalculator.png
+  artifactKey: Guid(b4b069b14ffccf146b40c7aae7c4818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/LengthCalculator.png using Guid(b4b069b14ffccf146b40c7aae7c4818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d955bbdca95cb82818b46ad91df8d1') in 0.009279 seconds 
+  Import took 0.012979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/SplineComputer.png
+  artifactKey: Guid(3c4c2926f013fcf498c19b14b90050c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/SplineComputer.png using Guid(3c4c2926f013fcf498c19b14b90050c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22d633801780b3b3c386e83ad0e6e59') in 0.009251 seconds 
+  Import took 0.012528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png
+  artifactKey: Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png using Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c82a74dd8dc0fe1aa62c36ad7aa434a') in 0.083614 seconds 
+  Import took 0.087615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/FAE_Pine_Bark_Diffuse.png
+  artifactKey: Guid(8f3e17e77488967438b743f8fbd76876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/FAE_Pine_Bark_Diffuse.png using Guid(8f3e17e77488967438b743f8fbd76876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00324391a13226ed27ec0e8b32d549a') in 0.011081 seconds 
+  Import took 0.015211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_C_billboard_normals.png
+  artifactKey: Guid(d58d5c25f2b2d7a448e0277238fbf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_C_billboard_normals.png using Guid(d58d5c25f2b2d7a448e0277238fbf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9ede6f3f18a818f5cb361c07d8370b') in 0.010001 seconds 
+  Import took 0.013369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/FAE_Pine_Bark_Diffuse.png
+  artifactKey: Guid(8f3e17e77488967438b743f8fbd76876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/FAE_Pine_Bark_Diffuse.png using Guid(8f3e17e77488967438b743f8fbd76876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00324391a13226ed27ec0e8b32d549a') in 0.008850 seconds 
+  Import took 0.012362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Sunshaft_Shadermap.png
+  artifactKey: Guid(bef6984f846f11442b4bd5000f44af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Sunshaft_Shadermap.png using Guid(bef6984f846f11442b4bd5000f44af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16dcf8b3fc2885ff2939cf161af4494') in 0.010565 seconds 
+  Import took 0.015022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard.png
+  artifactKey: Guid(c32691844943abf42b023a8ad5b2d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard.png using Guid(c32691844943abf42b023a8ad5b2d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85042386439731c83f8914ea1cca7c37') in 0.009222 seconds 
+  Import took 0.012880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_diffuse.png
+  artifactKey: Guid(295b9dff7bb450f4199a5cee980bea26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_diffuse.png using Guid(295b9dff7bb450f4199a5cee980bea26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb49efa2faaf6837d875e8c38311137') in 0.011690 seconds 
+  Import took 0.014979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/FAE_Pine_Bark_normals.png
+  artifactKey: Guid(b4a648f8a2e18da4aadcbf8c85918e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Pine/FAE_Pine_Bark_normals.png using Guid(b4a648f8a2e18da4aadcbf8c85918e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de33dbd81df23be4ba0a979a26c32d4') in 0.011501 seconds 
+  Import took 0.015522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard_normals.png
+  artifactKey: Guid(927f1af85e91b634898710af87fc9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard_normals.png using Guid(927f1af85e91b634898710af87fc9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2732bfb68939c9cbfbc4e611d99ad65e') in 0.009263 seconds 
+  Import took 0.013414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/PolygonColliderGenerator.png
+  artifactKey: Guid(5fad78752ebca1541a3321d08d1cd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/PolygonColliderGenerator.png using Guid(5fad78752ebca1541a3321d08d1cd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de69179f639058e6c3ab7301952c736') in 0.010581 seconds 
+  Import took 0.014868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/PathGenerator.png
+  artifactKey: Guid(71dadc4e471c37945ba62bf068cf1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/PathGenerator.png using Guid(71dadc4e471c37945ba62bf068cf1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766f7a1f6b0f61e82f07171b4b9a31ed') in 0.010479 seconds 
+  Import took 0.014212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/remove.png
+  artifactKey: Guid(34ec387670b2ac84198cf7daf3f99b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/remove.png using Guid(34ec387670b2ac84198cf7daf3f99b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bf8aefbdf2071a3e9d7cb2fcf84a8d') in 0.009038 seconds 
+  Import took 0.012760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png
+  artifactKey: Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png using Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621204d98b10aba6ebda7cb2aab21a91') in 0.030859 seconds 
+  Import took 0.034300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/NodeIcon.png
+  artifactKey: Guid(09a5be8542799294ab31f6b97c88471b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/NodeIcon.png using Guid(09a5be8542799294ab31f6b97c88471b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d351ba67f5d3094aec6eaab35a74ef') in 0.009470 seconds 
+  Import took 0.013113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/GrassMask02.png
+  artifactKey: Guid(312b3c84e725b884fbf388d04107c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/GrassMask02.png using Guid(312b3c84e725b884fbf388d04107c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dad1633f01adbc148bc4f9763c5ac4') in 0.009379 seconds 
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_normals.png
+  artifactKey: Guid(06f7f421fac668f4ab7f892a15a6e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_normals.png using Guid(06f7f421fac668f4ab7f892a15a6e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f2b00bd75eff7be81ec7e7ed7cf50b') in 0.010215 seconds 
+  Import took 0.013720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_diffuse.png
+  artifactKey: Guid(83a9e3928c4f599499bcfd78ff7a498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_diffuse.png using Guid(83a9e3928c4f599499bcfd78ff7a498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ce1dc1d44ab717d90017c1d9cc85d0') in 0.012953 seconds 
+  Import took 0.016514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_normals.png
+  artifactKey: Guid(eaf25226d54922a4eb5be56535249702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_B_billboard_normals.png using Guid(eaf25226d54922a4eb5be56535249702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233ace839c90118aa1b022d5672f51a8') in 0.010279 seconds 
+  Import took 0.013792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_A_billboard_normals.png
+  artifactKey: Guid(a39e334342f42f342835c0bebf1072cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_A_billboard_normals.png using Guid(a39e334342f42f342835c0bebf1072cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89edb3efd3278c327c590a8d66efa0b') in 0.009899 seconds 
+  Import took 0.013354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch.png
+  artifactKey: Guid(cbfabb59003b056448c46f49504ebb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch.png using Guid(cbfabb59003b056448c46f49504ebb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e21db1cce1e789947bb43088266475') in 0.012479 seconds 
+  Import took 0.016074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives.png
+  artifactKey: Guid(6ec9e8641084dad41b534a95607e9293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives.png using Guid(6ec9e8641084dad41b534a95607e9293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecf126cac73566a165dd3fa9d448652') in 0.008134 seconds 
+  Import took 0.011601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/playmaker.png
+  artifactKey: Guid(3ad88cea831f74448b8fbce9f906c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/playmaker.png using Guid(3ad88cea831f74448b8fbce9f906c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25b6044d669d47751de0c902fb7afef') in 0.007969 seconds 
+  Import took 0.011125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/remove_on.png
+  artifactKey: Guid(3597e623538af98449ca9f6d8a5b182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/remove_on.png using Guid(3597e623538af98449ca9f6d8a5b182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224afd3d2674699b25b28e452f1ca512') in 0.009384 seconds 
+  Import took 0.013992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/merge_on_dark.png
+  artifactKey: Guid(5b45a94533ad4bf4d9ed738cab95e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/merge_on_dark.png using Guid(5b45a94533ad4bf4d9ed738cab95e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8ccb89506503ce5878b6502119978f') in 0.008649 seconds 
+  Import took 0.012264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Terrain/New Terrain 1.asset
+  artifactKey: Guid(2752b3e0b86b0c24fa7f8f505c023a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain 1.asset using Guid(2752b3e0b86b0c24fa7f8f505c023a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39643a8be2abd7bceffe244170e6ae6d') in 0.058254 seconds 
+  Import took 0.062885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_C_billboard.png
+  artifactKey: Guid(a5bc4378d6a44a24d819e4ab9e719447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_C_billboard.png using Guid(a5bc4378d6a44a24d819e4ab9e719447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516a6e65c77d402ecd8a7f0ef83fc04e') in 0.009738 seconds 
+  Import took 0.013140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Packages/StarSparrow/Readme/Readme Files/Icons/HelpStarSparrow_Icon.png
+  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Readme/Readme Files/Icons/HelpStarSparrow_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf37e3c1cdd822f77dbe248994b18a83') in 0.008801 seconds 
+  Import took 0.012082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_B_billboard_normals.png
+  artifactKey: Guid(0dc124c0a91e0784292c8fbd177b3520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_B_billboard_normals.png using Guid(0dc124c0a91e0784292c8fbd177b3520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fae372b13baa0128fcf0939a3c0217') in 0.009737 seconds 
+  Import took 0.013205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/forever.png
+  artifactKey: Guid(a8c6341b9146b274a86ea850426901eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/forever.png using Guid(a8c6341b9146b274a86ea850426901eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc87457d39445b5dae4bd80d8de8d44') in 0.009589 seconds 
+  Import took 0.013433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/merge_dark.png
+  artifactKey: Guid(77974715df2046f4992d743bb4270675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/merge_dark.png using Guid(77974715df2046f4992d743bb4270675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af447c9dcad86a0f7dc6c29f7b670c84') in 0.007955 seconds 
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
+  artifactKey: Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png using Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c900a0753dbe2c08d3d0c26f86795f9b') in 0.030650 seconds 
+  Import took 0.034103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png
+  artifactKey: Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png using Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b638ceb36cb3cb0fad9ad3d7cf4ab2') in 0.020996 seconds 
+  Import took 0.024118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard_normals.png
+  artifactKey: Guid(462672c11b5f04e4ea4e4ba711b67f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_C_billboard_normals.png using Guid(462672c11b5f04e4ea4e4ba711b67f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41b4d8913bc3070d1437676a0a30c60') in 0.009773 seconds 
+  Import took 0.013178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_normals.png
+  artifactKey: Guid(1b71099063ead4640bf8bef34e5ede63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_A_billboard_normals.png using Guid(1b71099063ead4640bf8bef34e5ede63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2999c43217b8e5114b4a7c2877c3cf87') in 0.009445 seconds 
+  Import took 0.012767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Windvectors.png
+  artifactKey: Guid(6c795dd1d1d319e479e68164001557e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Effects/Textures/FAE_Windvectors.png using Guid(6c795dd1d1d319e479e68164001557e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbbaf512c868ddb37ba3dda5223ab5e') in 0.010464 seconds 
+  Import took 0.014181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png
+  artifactKey: Guid(a909b68486656de4986628989cc5f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png using Guid(a909b68486656de4986628989cc5f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cc50e33d54c4885f539a98611f4134') in 0.031141 seconds 
+  Import took 0.034863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/LongGrassPattern.png
+  artifactKey: Guid(8250ff09005548d488639d4bfc291cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/LongGrassPattern.png using Guid(8250ff09005548d488639d4bfc291cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d72096de850ccd2b351934615b6593') in 0.009196 seconds 
+  Import took 0.012978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png
+  artifactKey: Guid(6dcf0670d2ea1ca4987d2a0e3d9ab0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png using Guid(6dcf0670d2ea1ca4987d2a0e3d9ab0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7f62e487348192cc9c19d7df790f6a') in 0.027109 seconds 
+  Import took 0.030785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard_normals.png
+  artifactKey: Guid(34bed5caf53f8dc409f3eab9848e9366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard_normals.png using Guid(34bed5caf53f8dc409f3eab9848e9366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88efe8bea0e11f8ab5a89ee75b2feb34') in 0.010153 seconds 
+  Import took 0.013661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/pdf.png
+  artifactKey: Guid(3cd14c6e15dcfdb41b9a79ef8554198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/pdf.png using Guid(3cd14c6e15dcfdb41b9a79ef8554198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343bb92ae8818d7f33629cd223c0f111') in 0.009046 seconds 
+  Import took 0.012259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/GrassPattern.png
+  artifactKey: Guid(5ddef0977dde72343992a79d27da33fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/GrassPattern.png using Guid(5ddef0977dde72343992a79d27da33fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00356d1b1327a31e609e2664c6f68fe') in 0.012134 seconds 
+  Import took 0.015602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives_on.png
+  artifactKey: Guid(98beb0caa087b304abec853edc1d5b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/primitives_on.png using Guid(98beb0caa087b304abec853edc1d5b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e608f6d7c4cf34f2490e0cfb8554a31') in 0.009125 seconds 
+  Import took 0.012554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_A_billboard.png
+  artifactKey: Guid(d1b246f32d3ac55408286842c1d13995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_A_billboard.png using Guid(d1b246f32d3ac55408286842c1d13995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5c50cd4e86cc8dffc44687816f417a') in 0.009615 seconds 
+  Import took 0.012721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
+  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40a43e638fdd78942a1d35c8b77aee2') in 0.018217 seconds 
+  Import took 0.021883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror_dark.png
+  artifactKey: Guid(cab37296a2dd70540b58ed03bd10881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror_dark.png using Guid(cab37296a2dd70540b58ed03bd10881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2648c2487c7e214766497c6c6f56d6e5') in 0.008691 seconds 
+  Import took 0.012442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png
+  artifactKey: Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png using Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b69f4e517472dba4e6164b93c2cb20') in 0.057439 seconds 
+  Import took 0.061038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard.png
+  artifactKey: Guid(066b700556e743044867221eab5f4bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_B_billboard.png using Guid(066b700556e743044867221eab5f4bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd141155f6b49b7cd84a8270fb55c04') in 0.009709 seconds 
+  Import took 0.013544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch_Green.png
+  artifactKey: Guid(a2c58c0174253ee49bb7cc0242169f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Branch_Green.png using Guid(a2c58c0174253ee49bb7cc0242169f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72a00d5189be1423ba9e77abc6cf6dd') in 0.014057 seconds 
+  Import took 0.017275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_B_billboard.png
+  artifactKey: Guid(4b40faebd223ad8439d588c1c146f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_B_billboard.png using Guid(4b40faebd223ad8439d588c1c146f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324046117f35b18b7fe6411fbb3af570') in 0.011157 seconds 
+  Import took 0.014862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror_on_dark.png
+  artifactKey: Guid(43cd1dbd630ef2d4ebd337ac2ab51a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/mirror_on_dark.png using Guid(43cd1dbd630ef2d4ebd337ac2ab51a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6470009602fd379fe07460da07642f94') in 0.007878 seconds 
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard.png
+  artifactKey: Guid(ffd16fb88b86beb48857ad4aa84ba809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Spruce/FAE_Spruce_A_billboard.png using Guid(ffd16fb88b86beb48857ad4aa84ba809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a830a5f67b253f2d9fe1ca386ea8eb') in 0.012032 seconds 
+  Import took 0.015598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise02.png
+  artifactKey: Guid(369f6fef0ebe1f14aa6ed86d8e55cc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise02.png using Guid(369f6fef0ebe1f14aa6ed86d8e55cc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd7d67d3ef2eb1e9eac8b61de89627') in 0.011366 seconds 
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_B_billboard.png
+  artifactKey: Guid(4b40faebd223ad8439d588c1c146f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Tree/FAE_Tree_B_billboard.png using Guid(4b40faebd223ad8439d588c1c146f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324046117f35b18b7fe6411fbb3af570') in 0.010226 seconds 
+  Import took 0.013748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Packages/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png
+  artifactKey: Guid(56788cf7355aae243a176c2002e84e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png using Guid(56788cf7355aae243a176c2002e84e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5df8604315a3459a0849e180ebc675') in 0.051001 seconds 
+  Import took 0.054394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/get_started.png
+  artifactKey: Guid(af24004f75afd39469d2be2087678650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/get_started.png using Guid(af24004f75afd39469d2be2087678650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ebae7ed16a4d45e4f76bde786c0cee') in 0.009130 seconds 
+  Import took 0.012420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/ObjectBender.png
+  artifactKey: Guid(71feaa5f5395f3640a94b1ba649bc941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/ObjectBender.png using Guid(71feaa5f5395f3640a94b1ba649bc941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e970e0abe70dc01ccf2c94fa8d22f98') in 0.009110 seconds 
+  Import took 0.012812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_diffuse.png
+  artifactKey: Guid(a0267378867f9c947a0e3a7b3353b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Willow/FAE_Willow_Bark_diffuse.png using Guid(a0267378867f9c947a0e3a7b3353b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded04c7146fa0f83b39aa348704283a9') in 0.010908 seconds 
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/RealGrassPattern.png
+  artifactKey: Guid(27893100cc1f09647b28e099d53741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/BruteForce-GrassShader/Materials/A_Textures/RealGrassPattern.png using Guid(27893100cc1f09647b28e099d53741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f11a257ded38660203fdc3e5a142838') in 0.011578 seconds 
+  Import took 0.014953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/ObjectController.png
+  artifactKey: Guid(809d29b9ca1b74947aca02225d2ec233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/ObjectController.png using Guid(809d29b9ca1b74947aca02225d2ec233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a9cd8d309c1f5abc5aa593aec1a4b3') in 0.009763 seconds 
+  Import took 0.013454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Packages/Dreamteck/Utilities/Editor/Images/manual.png
+  artifactKey: Guid(7004b4ab0ebf5ea43bd227e21913ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Utilities/Editor/Images/manual.png using Guid(7004b4ab0ebf5ea43bd227e21913ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551547677307c1cb64916a0e45b37c23') in 0.009091 seconds 
+  Import took 0.013473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Editor/Icons/normal_on_dark.png
+  artifactKey: Guid(67f300b13f4475b4e8b15d4f09ab989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Editor/Icons/normal_on_dark.png using Guid(67f300b13f4475b4e8b15d4f09ab989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d3d66f27606ac2b88c75a5bbcae749') in 0.008370 seconds 
+  Import took 0.011976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.965844 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo/FAE_CliffCoverageDemo_CoverageMap.psd
+  artifactKey: Guid(0f066435241bad04b9536e3214d73f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo/FAE_CliffCoverageDemo_CoverageMap.psd using Guid(0f066435241bad04b9536e3214d73f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa050ce2a97f4ef5ea8429b3dba916c1') in 0.011369 seconds 
+  Import took 0.014873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoMountain_Normal.png
+  artifactKey: Guid(86eb66ba8e032be45a33660bcfe2c7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoMountain_Normal.png using Guid(86eb66ba8e032be45a33660bcfe2c7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b39c8d2617f27e62bbed18d94402b') in 0.011150 seconds 
+  Import took 0.014472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo/FAE_DemoTerrain2_pigmentmap.png
+  artifactKey: Guid(6ce10df7d0a7ae14785bf96e9233ce6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo/FAE_DemoTerrain2_pigmentmap.png using Guid(6ce10df7d0a7ae14785bf96e9233ce6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a36387416dbb31ffb82371a28795ed') in 0.008725 seconds 
+  Import took 0.012718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo/FAE_CliffCoverageDemo_CoverageMap.psd
+  artifactKey: Guid(0f066435241bad04b9536e3214d73f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/FAE_CliffCoverageDemo/FAE_CliffCoverageDemo_CoverageMap.psd using Guid(0f066435241bad04b9536e3214d73f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa050ce2a97f4ef5ea8429b3dba916c1') in 0.006551 seconds 
+  Import took 0.010175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_Demo1_CoverageMap.psd
+  artifactKey: Guid(f372ecf27e5c4954c8bf0015e21ca538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_Demo1_CoverageMap.psd using Guid(f372ecf27e5c4954c8bf0015e21ca538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1529baa96349844d3dc7690f641fee') in 0.010446 seconds 
+  Import took 0.013848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoTerrain_pigmentmap.png
+  artifactKey: Guid(a728bf1dc39cb0e4dad5aba35411306d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoTerrain_pigmentmap.png using Guid(a728bf1dc39cb0e4dad5aba35411306d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876007b06b1fd555723da28d5a5e725e') in 0.012320 seconds 
+  Import took 0.015510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_Demo1_CoverageMap.psd
+  artifactKey: Guid(f372ecf27e5c4954c8bf0015e21ca538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_Demo1_CoverageMap.psd using Guid(f372ecf27e5c4954c8bf0015e21ca538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1529baa96349844d3dc7690f641fee') in 0.006491 seconds 
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoMountain_Diffuse.png
+  artifactKey: Guid(3f501711831f76443aa6e3264b62080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoMountain_Diffuse.png using Guid(3f501711831f76443aa6e3264b62080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf569f6dd29713a375450c41d5258da') in 0.011545 seconds 
+  Import took 0.015117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006510 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoMountain_Diffuse.png
+  artifactKey: Guid(3f501711831f76443aa6e3264b62080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/_DemoScenes/Source/FAE_DemoMountain_Diffuse.png using Guid(3f501711831f76443aa6e3264b62080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf569f6dd29713a375450c41d5258da') in 0.009166 seconds 
+  Import took 0.012860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.652938 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/EdgeColliderGenerator.png
+  artifactKey: Guid(7417baf45051d9e4b974d45e69811efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/EdgeColliderGenerator.png using Guid(7417baf45051d9e4b974d45e69811efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5dfdb3f4ed9c9c872841ec74491b46') in 0.012614 seconds 
+  Import took 0.016814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Birch/FAE_Birch_B_billboard_normals.png
+  artifactKey: Guid(a513b607a5486574f9094f69c4ecd630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Birch/FAE_Birch_B_billboard_normals.png using Guid(a513b607a5486574f9094f69c4ecd630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0007b17bff0255146dc0fd25611ef7ac') in 0.009352 seconds 
+  Import took 0.012792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Packages/Dreamteck/Splines/Components/Icons/EdgeColliderGenerator.png
+  artifactKey: Guid(7417baf45051d9e4b974d45e69811efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Dreamteck/Splines/Components/Icons/EdgeColliderGenerator.png using Guid(7417baf45051d9e4b974d45e69811efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5dfdb3f4ed9c9c872841ec74491b46') in 0.010905 seconds 
+  Import took 0.014366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Birch/FAE_Birch_Bark_Normals.png
+  artifactKey: Guid(9f1c6cbf56871ee4685ed679abd0dd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Birch/FAE_Birch_Bark_Normals.png using Guid(9f1c6cbf56871ee4685ed679abd0dd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06276ce25d72f492e11dc4a560209dee') in 0.013123 seconds 
+  Import took 0.016468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Birch/FAE_Birch_A_billboard_normals.png
+  artifactKey: Guid(73d193c2ea3ed444b836e40c672a4c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Adventure Environment/Materials/Trees/Textures/Birch/FAE_Birch_A_billboard_normals.png using Guid(73d193c2ea3ed444b836e40c672a4c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3407ff7e08bcbbd48e9779a4d1310ca7') in 0.009713 seconds 
+  Import took 0.013172 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
